@@ -7,8 +7,9 @@ let cost=0;
 		arr.sort((a,b)=>a-b);
 		let f1=arr.shift();
 		let f2=arr.shift();
-		cost+=f1+f2;
-		arr.push(cost);
+		let cc=f1+f2;
+		cost+=cc;
+		arr.push(cc);
 	}
   return cost;
 }
